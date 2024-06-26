@@ -1,0 +1,11 @@
+tabela ='Atlético-PR', 'Bahia', 'Flamengo', 'Botafogo', 'Cruzeiro', 'Atlético-MG', 'Bragantino', 'Palmeiras', 'São Paulo', 'Internacional', 'Fortaleza', 'Grêmio','Vasco da Gama', 'Criciúma', 'Juventude', 'Corinthias', 'Fluminense', 'EC Vitória', 'Atlético-GO', 'Cuiabá'
+print('-=-'*50)
+print(f'A lista de times do Brasileirão são: {tabela}')
+print('-=-'*50)
+print(f'Os 5 primeiros times são: {tabela[0:5]}')
+print('-=-'*50)
+print(f'Os 4 últimos times são: {tabela[-4:]}')
+print('-=-'*50)
+print(f'Times em ordem alfabética: {sorted(tabela)}')
+print('-=-'*50)
+print(f'O Palmeiras está na {tabela.index('Palmeiras')+1}° posição')
